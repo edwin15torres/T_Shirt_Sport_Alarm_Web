@@ -4,45 +4,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Proyecto Básico HTML con CSS y jQuery</title>
+  <title>Bienvenida</title>
 
   <!-- Agregamos las hojas de estilo -->
   <link rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link rel="stylesheet"
     href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
   <link rel="stylesheet"
-    href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
   <!-- Agregamos los scripts -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-
   <!-- Agregamos nuestro CSS -->
   <link rel="stylesheet" type="text/css" href="../css/style.css">
-
 </head>
 
 <body>
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <a class="navbar-brand" href="#"></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item active">
+          <a class="nav-link" href="#"
+            >Home <span class="sr-only">(current)</span></a
+          >
+        </li>
+        
+      </ul>
+
+
+      <a href="../index.html"  
+       class="btn btn-outline-dark my-2 my-sm-0  bg-light" type="submit">
+          Cerrar sesión </a>
+
+
+      </form>
+    </div>
+  </nav>
+  <br><br>
+  
   <div class="container">
     <div class="row">
-      <div class="col">
-        <h1>T_Shirt_Sport_Alarm_Web ...</h1>
+      
+      <div class="col-md-4 column-one">
 
+      </div>
 
-        Bienvenidos
-
-
+   
+      <div class="col-md-4 ">
+        <img src="../css/images/Logo.jpg" alt="home" class="img-home">
       </div>
     </div>
 
+    <br><br>
+
+    <div class="row">
+
+      <div class="col-4 "></div>
+    
+      <div class="col-2 ">
+        
+        <a href="catalogo.html"
+        class="mdc-button mdc-button--unelevated_2 mdc-ripple-upgraded">
+        
+        <span class="mdc-button__ripple"></span>Catálogo</a>
+
+      </div> 
+      <div class="col-4">
+
+        <a href="alertas.html"
+        class="mdc-button mdc-button--unelevated_2 mdc-ripple-upgraded">
+        
+        <span class="mdc-button__ripple" align="center"></span>Alertas y notificaciones</a>
+
+ 
+
+      </div> <!-- estilo rojo -->
+  </div>
 
   </div>
 
@@ -50,10 +104,12 @@
   <script
     src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
   <!-- Instantiate single textfield component rendered in the document -->
-  <script>
-    mdc.textField.MDCTextField.attachTo(document.querySelector < HTMLElement > ('.mdc-text-field'));
+  <script type="text/javascript">
+    window.mdc.autoInit();
   </script>
-  <script src="../script.js"></script>
+
+
+
 </body>
 
 </html>
