@@ -111,6 +111,25 @@ img.img-home {
 }
 
 
+/* Botones  fondo alerta*/
+.mdc-button--unelevated_4:not(:disabled) {
+  width: 960px;
+  height: 350px;
+  background: #BFD1DF;
+  border-radius: 10px;
+  color: #000000;
+  text-align: center;
+}
+
+.mdc-line-ripple::before,
+.mdc-line-ripple::after {
+  position: absolute;
+  bottom: 50%;
+  width: 94%;
+  border-bottom-style: solid;
+  content: "";
+}
+
 
 
 
