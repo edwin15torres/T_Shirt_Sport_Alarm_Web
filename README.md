@@ -8,4 +8,4 @@ https://www.figma.com/proto/yHpHo47AGkQX9caUzwUgb9/Propuesta-UI-Design-WEB?node-
 
 # Ejecución de la aplicación desde una maquina local
 - Clonar desde el repositorio https://github.com/edwin15torres/T_Shirt_Sport_Alarm_Web/ en su equipo
-- Posterior a lo anterior se debera abrir desde la aplicación del file Index.html
+- Posterior a lo anterior se debera abrir desde la aplicación el file Index.html
